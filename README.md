@@ -44,4 +44,41 @@ Install them using:
 
 ```bash
 pip install pandas numpy scikit-learn
+▶️ How to Run
+bash
+Copy
+Edit
+python movie_recommender.py
+Modify the movie title and number of recommendations inside the script:
+
+python
+Copy
+Edit
+get_recommendations("Toy Story (1995)", top_n=5)
+📤 Example Output
+markdown
+Copy
+Edit
+Recommendations for 'Toy Story (1995)':
+1. Bug's Life, A (1998)
+2. Aladdin (1992)
+3. Beauty and the Beast (1991)
+4. Lion King, The (1994)
+5. Hercules (1997)
+📌 Future Improvements
+Add content-based filtering (genre, cast, tags)
+
+Use matrix factorization (e.g., SVD)
+
+Build a web interface (Flask/Streamlit)
+
+Support for user-specific recommendations
+
+📄 License
+This project is open-source under the MIT License.
+
+🙌 Acknowledgements
+MovieLens Dataset
+
+Scikit-learn Documentation
 # movie-recommendation-sys
