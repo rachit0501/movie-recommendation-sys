@@ -17,7 +17,7 @@ This is a **Content-Based Movie Recommendation System** built using Python. It r
 
 This project uses the [MovieLens dataset](https://grouplens.org/datasets/movielens/) which includes:
 
-- `movies.csv` — movie ID and title
+- `movies.csv` — movie ID and title  
 - `ratings.csv` — user ID, movie ID, and rating
 
 Make sure both files are in the same directory as the script.
@@ -36,49 +36,61 @@ Make sure both files are in the same directory as the script.
 
 ## 📦 Libraries Used
 
-- `pandas`
-- `numpy`
+- `pandas`  
+- `numpy`  
 - `scikit-learn`
 
 Install them using:
 
 ```bash
 pip install pandas numpy scikit-learn
-▶️ How to Run
-bash
-Copy
-Edit
+```
+
+---
+
+## ▶️ How to Run
+
+```bash
 python movie_recommender.py
+```
+
 Modify the movie title and number of recommendations inside the script:
 
-python
-Copy
-Edit
+```python
 get_recommendations("Toy Story (1995)", top_n=5)
-📤 Example Output
-markdown
-Copy
-Edit
+```
+
+---
+
+## 📤 Example Output
+
+```
 Recommendations for 'Toy Story (1995)':
 1. Bug's Life, A (1998)
 2. Aladdin (1992)
 3. Beauty and the Beast (1991)
 4. Lion King, The (1994)
 5. Hercules (1997)
-📌 Future Improvements
-Add content-based filtering (genre, cast, tags)
+```
 
-Use matrix factorization (e.g., SVD)
+---
 
-Build a web interface (Flask/Streamlit)
+## 📌 Future Improvements
 
-Support for user-specific recommendations
+- Add content-based filtering (genre, cast, tags)  
+- Use matrix factorization (e.g., SVD)  
+- Build a web interface (Flask/Streamlit)  
+- Support for user-specific recommendations
 
-📄 License
-This project is open-source under the MIT License.
+---
 
-🙌 Acknowledgements
-MovieLens Dataset
+## 📄 License
 
-Scikit-learn Documentation
-# movie-recommendation-sys
+This project is open-source under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+- [MovieLens Dataset](https://grouplens.org/datasets/movielens/)  
+- [Scikit-learn Documentation](https://scikit-learn.org/)
